@@ -1,0 +1,15 @@
+{
+  "name": "ghamza-website",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Ghamza-Jd/Ghamza-Jd.github.io.git",
+  "author": "Hamza Jadid <haljadid@proximie.com>",
+  "license": "MIT",
+  "scripts": {
+    "predeploy": "hugo --minify && echo 'www.ghamza.dev' > ./public/CNAME",
+    "deploy": "yarn gh-pages -d public"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}

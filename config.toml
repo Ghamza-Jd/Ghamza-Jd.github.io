@@ -1,6 +1,6 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://Ghamza-Jd.github.io'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Website'
 theme = 'hugo-theme-shell'
 
 [Params]
@@ -71,5 +71,6 @@ theme = 'hugo-theme-shell'
   # Note: ["ACTIVITY", "URL or PATH TO YOUR MARKDOWN FILE"]
   files = [ 
     ["Blog", "https://blog.ghamza.dev/"],
+    ["Resume", "https://resume.ghamza.dev"],
     ["Github", "https://github.com/Ghamza-Jd"]
   ]
